@@ -10,7 +10,7 @@ The software has not reached completion, but the proof of concept is ready.
 
 **You need to have python 3 installed**
 
-Step 1 : Clone the repository and fire up two command prompts and navigate to `%PATHTO%/NetDrive/src/services`.
+Step 1 : Clone the repository and fire up two command prompts and navigate to `%PATH%/src/services`.
 
 Step 2 : In the one of the command prompts, run `py serverhub.py` and then wait to choose a drive or directory. Then the server is initialized
 
