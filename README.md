@@ -16,7 +16,5 @@ Step 2 : In the one of the command prompts, run `py serverhub.py` and then wait 
 
 Step 3 : In the other command prompt, run `py clienthub.py`
 
-That's it you can run the software now.
-
-Again this is just a prototype, still under development.
+That's it you can run the software now. Again this is just a prototype, still under development.
 
