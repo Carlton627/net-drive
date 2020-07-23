@@ -76,6 +76,7 @@ server_hub = ServerHub(
 Tk().withdraw()
 
 # drive file system tree
+# TODO: optimize the tree creation architecture
 ref_root = file_system_tree_creation(askdirectory())
 serialized_tree_object = pickle.dumps(ref_root)
 print("Initialized....")
