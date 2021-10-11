@@ -9,7 +9,7 @@ import pickle
 
 from utils.fetchingfiles import file_system_tree_creation
 from tkinter import Tk
-from tkinter.filedialog import askdirectory 
+from tkinter.filedialog import askdirectory
 
 HEADER_LENGTH = 20
 HOST_NAME = socket.gethostname()
@@ -59,7 +59,7 @@ class ServerHub:
 
 	# lambda functions
 	close_client_connection = lambda self : self.__client_socket.close()
-	close_server = lambda self : self.__server_socket.close() 
+	close_server = lambda self : self.__server_socket.close()
 
 
 #Driver code
@@ -81,7 +81,7 @@ ref_root = file_system_tree_creation(askdirectory())
 serialized_tree_object = pickle.dumps(ref_root)
 print("Initialized....")
 
-# ==========> End of fetching from drive 
+# ==========> End of fetching from drive
 
 
 
@@ -105,7 +105,7 @@ while True:
 	file_object.close()
 
 	server_hub.send_packet(file_content, HEADER_LENGTH, in_chunks = True)
-	
+
 	server_hub.close_client_connection()
 	break
 
